@@ -4,9 +4,9 @@ Filthy pirates who don't use steam/gog/epic/origin/etc... should be able to mana
 
 
 ## Installation
-This Version:0.99.51.1
+This Version:0.99.51.2
 
-This Build: 2022-02-28 5:26 PM
+This Build: 2022-02-28 10:02 PM
 
 Run the installer or extract the binary to a location of your choice, **or** download and build and run the source files and executables.
 ```sh
