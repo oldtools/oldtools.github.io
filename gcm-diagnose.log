@@ -1,0 +1,188 @@
+﻿Diagnose log at 2022-03-01T01:54:40Z
+
+Executable: C:\Users\wavefunction\Programs\RJDB\bin\Git\mingw64\libexec\git-core\git-credential-manager-core.exe
+Version: 2.0.632+478753bbb7
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 22563)
+Reading environment variables... OK
+ Variables:
+PROCESSOR_ARCHITEW6432=AMD64
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=SURFACEPRO
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\wavefunction\OneDrive
+WT_PROFILE_ID={0caa0dad-35be-5f56-a8ff-afceeeaa6101}
+HOMEPATH=\Users\wavefunction
+PROCESSOR_REVISION=8e09
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+TMP=C:\Users\WAVEFU~1\AppData\Local\Temp
+TEMP=C:\Users\WAVEFU~1\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\wavefunction\AppData\Local
+PUBLIC=C:\Users\Public
+USERDOMAIN=SURFACEPRO
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\wavefunction\Programs\adb;;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\wavefunction\Programs\Python\Python39\Scripts\;C:\Users\wavefunction\Programs\Python\Python39\;C:\Users\wavefunction\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\GitHub CLI\;C:\Users\wavefunction\Programs\RJDB\bin\Git\bin
+PROCESSOR_LEVEL=6
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROMPT=$P$G
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+NUMBER_OF_PROCESSORS=4
+FPS_BROWSER_USER_PROFILE_STRING=Default
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+WT_SESSION=70240e86-b657-4c47-8434-542b5d6ee897
+WSLENV=WT_SESSION::WT_PROFILE_ID
+ProgramData=C:\ProgramData
+ProgramW6432=C:\Program Files
+ProgramFiles=C:\Program Files (x86)
+SystemRoot=C:\WINDOWS
+CommonProgramW6432=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+LOGONSERVER=\\SURFACEPRO
+USERPROFILE=C:\Users\wavefunction
+USERDOMAIN_ROAMINGPROFILE=SURFACEPRO
+APPDATA=C:\Users\wavefunction\AppData\Roaming
+HOMEDRIVE=C:
+USERNAME=wavefunction
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+SystemDrive=C:
+windir=C:\WINDOWS
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\wavefunction\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\wavefunction\AppData\Local\Temp\4fae4805a080af9490392261'... OK
+Reading from temporary file 'C:\Users\wavefunction\AppData\Local\Temp\4fae4805a080af9490392261'... OK
+Deleting temporary file 'C:\Users\wavefunction\AppData\Local\Temp\4fae4805a080af9490392261'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\wavefunction
+UserDataDirectoryPath: C:\Users\wavefunction\.gcm
+GetCurrentDirectory(): C:\Users\wavefunction\Programs\RJDB\GitHub\oldtools.github.io
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking basic networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:59310/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+Testing with IHttpClientFactory created HTTP client...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:59312/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.35.1.windows.2'
+Locating current repository... OK
+Git repository at 'C:/Users/wavefunction/Programs/RJDB/GitHub/oldtools.github.io/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	core.symlinks=false
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	core.fscache=true
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	color.diff=auto
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	color.status=auto
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	color.branch=auto
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	color.interactive=true
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	help.format=html
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	rebase.autosquash=true
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Users/wavefunction/Programs/RJDB/bin/Git/etc/gitconfig	credential.helper=helper-selector
+file:C:/Users/wavefunction/.gitconfig	user.name=oldtools
+file:C:/Users/wavefunction/.gitconfig	user.email=IEMAIL
+file:C:/Users/wavefunction/.gitconfig	credential.helperselector.selected=store
+file:C:/Users/wavefunction/.gitconfig	credential.https://github.com.helper=
+file:C:/Users/wavefunction/.gitconfig	credential.https://github.com.helper=!C:\Users\wavefunction\Programs\RJDB\bin\Git\bin\gh.exe auth git-credential
+file:C:/Users/wavefunction/.gitconfig	credential.https://gist.github.com.helper=
+file:C:/Users/wavefunction/.gitconfig	credential.https://gist.github.com.helper=!C:\Users\wavefunction\Programs\RJDB\bin\Git\bin\gh.exe auth git-credential
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	credential.helper=store
+file:.git/config	remote.oldtools.github.io.url=https://github.com/oldtools/oldtools.github.io
+file:.git/config	remote.oldtools.github.io.fetch=+refs/heads/*:refs/remotes/oldtools.github.io/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker not supported.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\wavefunction\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\wavefunction\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
