@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>
-        [RJ_PROJ]</title>
+        skeletonKey</title>
 </head>
 
 <body>
@@ -44,7 +44,7 @@
             </div>
             <div id="superflex" align="center">
                 <br>
-                <!-- <span class="tfnt">[RJ_PROJ]</span>-->
+                <!-- <span class="tfnt">skeletonKey</span>-->
                 <div id="msriv">
                     <h1>s</h1>
                     <h1>k</h1>
@@ -85,7 +85,7 @@
                                 <h2><a href="https://github.com/oldtools/skeletonKey/releases/download/portable/portable.zip">Portable Binary »</a></h2>
                             </li>
                         </ul>
-                        This is the compressed [RJ_PROJ] executable.<br> Extract into a [RJ_PROJ] directory.
+                        This is the compressed skeletonKey executable.<br> Extract into a skeletonKey directory.
                     </div>
                     <br>
                     <div id="inner">
@@ -97,7 +97,7 @@
 					<a href="https://github.com/oldtools/skeletonKey/releases">Release Page</a>
 					<br> -->
                         <strong>Released :</strong>
-                        <h66>2022-12-18 11:22 AM by [GITUSER]</h66>
+                        <h66>2022-12-18 11:22 AM by oldtools</h66>
                         <br>
                     </div>
                     <br>
@@ -201,7 +201,7 @@
                     <div align="left" id="outer">
                         <div id="inner" align="left">
                             <div>
-                                <p align="center">[RJ_PROJ] functions both as a ROM launcher and as a configuration tool for HTPC frontends. </p>
+                                <p align="center">skeletonKey functions both as a ROM launcher and as a configuration tool for HTPC frontends. </p>
                                 <h2 class="tabItemHeading" align="center">
                                     <table align="center">
                                         <tr>
@@ -233,14 +233,14 @@
                                 <li>Via ROM-Jacket Launchers</li>
                                 <li>From the <a href="#CLI" data-smoothie>command line</a></li>
                             </ul>
-                            <p>As a ROM-Launcher, [RJ_PROJ] provides a robust interface needed to automate hundreds of emulators</p>
-                            <p>As a configuration tool, [RJ_PROJ] can deploy a ROM-library that meets the expectations of users who desire a means to maintain the integrity of settings and assets indipendently of a frontend or emulator.
+                            <p>As a ROM-Launcher, skeletonKey provides a robust interface needed to automate hundreds of emulators</p>
+                            <p>As a configuration tool, skeletonKey can deploy a ROM-library that meets the expectations of users who desire a means to maintain the integrity of settings and assets indipendently of a frontend or emulator.
                             </p>
 							      <div align="center"><h3><a>Basic Overview &amp; General Quickstart</a></h3></div>
-						<p>Upon initialization, [RJ_PROJ] will prompt for locations of an existing ROM library.<br>Folders within this chosen directory 
+						<p>Upon initialization, skeletonKey will prompt for locations of an existing ROM library.<br>Folders within this chosen directory 
 						are identified and users are given the option to rename and or ntfs-link via some fuzzy-matching.<br>
 						Emulators identified in the specified directory have a set of default preferences which are assigned as nicknames to their compatible, identified systems in your ROM Library</p>
-                        <p>After installing [RJ_PROJ], use the <strong>"EMU :=: SYS"</strong> tab to import new systems, or download new emulators. </p>
+                        <p>After installing skeletonKey, use the <strong>"EMU :=: SYS"</strong> tab to import new systems, or download new emulators. </p>
                         
                         </p>
                         </div>
@@ -261,27 +261,27 @@
                                     <div id="detailsdiv" align="left">
                                         <div>
                                             <h4>Auto-Load Per-Game Settings</h4>
-                                            <p>[RJ_PROJ] will automatically load any per-game settings previously created and create settings for the currently selected title upon launch if none are detected.
+                                            <p>skeletonKey will automatically load any per-game settings previously created and create settings for the currently selected title upon launch if none are detected.
                                             </p>
                                             <h4>Systems Directory</h4>
-                                            <p>Systems follow the no-intro naming nomenclature wherever possible.<br>Jackets and frontends deployed by [RJ_PROJ] can be populated with ROMs categorically stored beneath the systems directory.
+                                            <p>Systems follow the no-intro naming nomenclature wherever possible.<br>Jackets and frontends deployed by skeletonKey can be populated with ROMs categorically stored beneath the systems directory.
                                             </p>
                                             <h4>Emulators Directory</h4>
-                                            <p>By default, all emulators will be installed to the Emulator Directory. Upon assigning a directory to the Emulators Directory, [RJ_PROJ] will search subdirectories for previously installed known emulators not
+                                            <p>By default, all emulators will be installed to the Emulator Directory. Upon assigning a directory to the Emulators Directory, skeletonKey will search subdirectories for previously installed known emulators not
                                                 currently identified or manually assigned.
                                             </p>
                                             <h4>Rename Detected</h4>
-                                            <p>[RJ_PROJ] can try to rename folders in the Systems Directory to the recognized nomenclature supported by [RJ_PROJ] (no-intro)<br>
+                                            <p>skeletonKey can try to rename folders in the Systems Directory to the recognized nomenclature supported by skeletonKey (no-intro)<br>
                                             </p>
                                             <h4>Filter Supported</h4>
-                                            <p>Enabling this will allow [RJ_PROJ] to list only recognized folder-names in the Systems Directory.<br>It is recommended to enable this option.</p>
+                                            <p>Enabling this will allow skeletonKey to list only recognized folder-names in the Systems Directory.<br>It is recommended to enable this option.</p>
                                             <h4>Temp/Cache Directory</h4>
                                             <p>By default, the temp/cache directory is set to windows temp folder "%temp%".</p>
                                             <h4>History/Playlists</h4>
-                                            <p>The history file contains a list of the ROMs launched by [RJ_PROJ]. Additionally the history file and playlists created by [RJ_PROJ] store the emulator or core assigned to it.</p>
+                                            <p>The history file contains a list of the ROMs launched by skeletonKey. Additionally the history file and playlists created by skeletonKey store the emulator or core assigned to it.</p>
                                             <p>The history file and playlists can be read by retroArch and can share these interchangeably.</p>
                                             <h4>Append All</h4>
-                                            <p>[RJ_PROJ] can use retroArch's history file to record its' own launched ROMs.<br> Users who do not wish to alter retroArch's history file should disable this option.
+                                            <p>skeletonKey can use retroArch's history file to record its' own launched ROMs.<br> Users who do not wish to alter retroArch's history file should disable this option.
                                             </p>
                                         </div>
                                     </div>
@@ -360,7 +360,7 @@
                                             </p>
                                             <p>A new configuration will be generated in the ROMs' configuration folder if one is not found.
                                             </p>
-                                            <p>(eg:<code>\...\[RJ_PROJ]\cfg\Microsoft - DOS\msds_dosbox\TMNT\dosbox.conf</code>).</p>
+                                            <p>(eg:<code>\...\skeletonKey\cfg\Microsoft - DOS\msds_dosbox\TMNT\dosbox.conf</code>).</p>
                                             <h4>EMU List</h4>
                                             <p>The EMU list is a core/emulator dropdown which contains a list of all cores, all nicknames for system-associations, and all emuators.<br>
                                             <p>Right-Clicking on this menu enables assignment and configuration.</p>
@@ -375,10 +375,10 @@
                         <br>
                         <div id="inner2">
                             <h3><a>Drag &amp; Drop</a></h3>
-                            <p>Drag &amp; Drop a ROM into the Main tab and with the Auto-Launch option enabled, [RJ_PROJ] will detect the ROM and launch it using the system's associated emulator, or bring forth the menu if undetected/Auto-Launch is disabled.
+                            <p>Drag &amp; Drop a ROM into the Main tab and with the Auto-Launch option enabled, skeletonKey will detect the ROM and launch it using the system's associated emulator, or bring forth the menu if undetected/Auto-Launch is disabled.
                             </p>
                             <h3><a>Search &amp; Find</a></h3>
-                            <p>The &quot;find&quot; button can be found in the lower right hand corner of the tab and will expand the search fields.<br> [RJ_PROJ] can search for ROMs in your &quot;Systems&quot; directories or playlists.
+                            <p>The &quot;find&quot; button can be found in the lower right hand corner of the tab and will expand the search fields.<br> skeletonKey can search for ROMs in your &quot;Systems&quot; directories or playlists.
                                 <br> Selecting a title will repopulate the System-List &amp; make it active in the ROM list.
                             </p>
                             <p>A right-click menu allows for a single ROM to be launched by any installed emulator or it's directory opened by windows explorer. Additionally, multiple files can be selected and added to the playlist editor.
@@ -394,10 +394,10 @@
                 <div align="left" id="outer">
                     <div id="inner">
 						<h3><a>Systems, Emulators, Frontends &amp; Utilities</a></h3>
-                        <p>The EMU:=:SYS tab is used to install and associate [RJ_PROJ]'s systems to emulator-nicknames and and control the options for them.<br>This tab may be brought forth automagically when 
+                        <p>The EMU:=:SYS tab is used to install and associate skeletonKey's systems to emulator-nicknames and and control the options for them.<br>This tab may be brought forth automagically when 
 						attempting to launch ROMs from a system which has not yet been assigned to an emulator-nickname.
                         <br>
-						The Dropdown menu in the lower left hand corner of the tab contains sections of [RJ_PROJ]'s installable and configurable components for emulators, systems frontends and utilties.</p><br>
+						The Dropdown menu in the lower left hand corner of the tab contains sections of skeletonKey's installable and configurable components for emulators, systems frontends and utilties.</p><br>
 					 <ul class="accordion css-accordion" align="right">
 						<li class="accordion-item">
 							<input class="accordion-item-input" type="checkbox" name="accordion" id="item-felst" />
@@ -405,8 +405,8 @@
 							<div class="accordion-item-bd">
 								<div id="detailsdiv" align="left">
 								<h4>FRONTENDS</h4>
-								<p>[RJ_PROJ]'s supported and some unsupported frontends can be downloaded and installed here.<br>
-								Any detected frontends found in [RJ_PROJ]'s Emulators directory will populate in this section, however the selectable frontends can be identified manaully by dragging and dropping the executable to the selection box, or by using the file-selection dialog.</p>
+								<p>skeletonKey's supported and some unsupported frontends can be downloaded and installed here.<br>
+								Any detected frontends found in skeletonKey's Emulators directory will populate in this section, however the selectable frontends can be identified manaully by dragging and dropping the executable to the selection box, or by using the file-selection dialog.</p>
 								</div>
 							</div>
 						</li>
@@ -452,7 +452,7 @@
                                                     <p>
                                                         <h4>Daemon Tools: Consider alternatives.</h4>
                                                         <span style="font-size: xx-small">
-														<p>For systems windowsXP-&gt;windows 8.x, [RJ_PROJ] can automatically install this program
+														<p>For systems windowsXP-&gt;windows 8.x, skeletonKey can automatically install this program
 														through the command-line which will NOT install the included toolbar or any additional
 														software. Windows 10 users who need Daemon Tools should
 														download and install it separately.<br></p></span>
@@ -484,13 +484,13 @@
                                 <div class="accordion-item-bd">
                                     <div id="detailsdiv" align="left">
 									<h4>OBTAINING EMULATORS</h4>
-									<p>Emulators installed through [RJ_PROJ] are automatically added to the identified emulators.<br>
-									Emulators which were not automatically detected, in locations outside the scope of your selected Emulators directory or have been <u>externally</u> installed after [RJ_PROJ]'s detection can be added by SELECTing the emulator's name
+									<p>Emulators installed through skeletonKey are automatically added to the identified emulators.<br>
+									Emulators which were not automatically detected, in locations outside the scope of your selected Emulators directory or have been <u>externally</u> installed after skeletonKey's detection can be added by SELECTing the emulator's name
 									from the list of Emulators in the EMU:=:SYS tab and dragging and dropping the exe into the selection BOX or selecting it through a file-selection dialog box.
 									<br>
 									  <p>
 										The Emulators dropdown in the EMU:=:SYS tab allows emulators to be assigned to their compatible systems individually by giving that emulator priority.<br>
-										Additionally, all emulators can be set to allow [RJ_PROJ] to store and load settings for each game on a global level.
+										Additionally, all emulators can be set to allow skeletonKey to store and load settings for each game on a global level.
 										<!-- <a class="lightbox" href="https://www.youtube.com/embed/NRw1f2hzGVY?showinfo=0">
 											<img alt="" height="14" src="video.svg" width="14">
 											<strong> VIDEO:</strong></a> -->
@@ -502,8 +502,8 @@
 									The BIOS files can be re-indexed for any newly installed and identified emulators by clicking the ''AUTO'' button.<br>
 								<br>
 									<div align="center"><h4><u>UNIDENTIFIED EMULATORS</u></h4></div>
-									<p>Any emulator or system can be added to [RJ_PROJ]</p>										
-										<p>Adding a unique emulator to [RJ_PROJ]'s index is achieved through a custom nickname.<br>
+									<p>Any emulator or system can be added to skeletonKey</p>										
+										<p>Adding a unique emulator to skeletonKey's index is achieved through a custom nickname.<br>
 										Select the System dropdown in the EMU:SYS tab and select the system you wish to associate your emulator with.<br>
 										In the lower-center column a list will appear containg emulator nicknames associated with the system.  If none are listed, assign any nickname by selecting the dropdown above it and press the [+] button beside it, then Select any of them and in the right hand column the properties should appear.<br>
 										Change the name/options to suit your emulator and use BROWSE button to select the exe.<br>
@@ -524,7 +524,7 @@
                                         <div>
                                             <p>Systems can be renamed by right-clicking on the upper right hand corner dropdown menu when selecting a system.</p>
 											<p><div align="center"><h4><u>UNIDENTIFIED SYSTEMS</u></h4></div>
-											<p>If, for some reason [RJ_PROJ] is unable to automatically identify your system, the EMU-SYS tab's system dropdown will allow you to assign the directory/s to the system through drag and drop or a directory selection browser.<br>
+											<p>If, for some reason skeletonKey is unable to automatically identify your system, the EMU-SYS tab's system dropdown will allow you to assign the directory/s to the system through drag and drop or a directory selection browser.<br>
 										
 										<br>
 										Your unique system can be added by selecting the System dropdown on the EMU:SYS Tab.<br>
@@ -550,7 +550,7 @@
                                             <p>Systems are initially detected and defined in part by file-extensions exclusive to the system. Because an emulator may have multiple system-assocations, a unique &quot;system identifier&quot; nickname can be created to define exclusive
                                                 paramaters.
                                             </p>
-                                            <p>[RJ_PROJ] can detect and assign emulators or a designated retroArch core to a system/s, however it may be desireable to create and configure systems and associations manually. A unique system-identifier or
+                                            <p>skeletonKey can detect and assign emulators or a designated retroArch core to a system/s, however it may be desireable to create and configure systems and associations manually. A unique system-identifier or
                                                 &quot;nickname&quot; can be created to create custom systems and associated emulator-presets.
                                             </p>
                                             <p>A system may have multiple emulators assigned which populate the quick-launch/right-click buttons in the global-menu. Right clicking on the System and emu/core dropdowns in the global-menu will bring up menus to quickly configure or associate systems and individual ROMs with emulators and
@@ -577,7 +577,7 @@
                                                 <p>Spaces are observed for options, arguments and command-lines.</p>
                                                 <p>The
                                                     < character must be escaped or it will be converted to a space.</p>
-                                                        <p><strong><code>[CUSTMOPT]</code></strong> &amp; <strong><code>[CUSTMARG]</code></strong> are special tags assigned to MAME and other emulators which allow [RJ_PROJ] to detect and automate the passing
+                                                        <p><strong><code>[CUSTMOPT]</code></strong> &amp; <strong><code>[CUSTMARG]</code></strong> are special tags assigned to MAME and other emulators which allow skeletonKey to detect and automate the passing
                                                             of overriding-options and arguments at runtime via the &quot;switches&quot; checkbox in the Global-Launch-Menu (this is generally reserved for MAME and other multi-system emulators which use
                                                             zip-contents to determine command-line parameters.)
                                                         </p>
@@ -592,7 +592,7 @@
                             </ul>
                             <h4>Per-Game Configurations:</h4>
                             <a id="ASSOC"></a>
-                            <p>[RJ_PROJ] can retain emulator settings for each game (configuration files, save-states, battery-saves/nvram) under supported emulators. Any changes that are made during gameplay will be saved.
+                            <p>skeletonKey can retain emulator settings for each game (configuration files, save-states, battery-saves/nvram) under supported emulators. Any changes that are made during gameplay will be saved.
                             </p>
                             <ul class="accordion css-accordion" align="right">
                                 <li class="accordion-item">
@@ -602,11 +602,11 @@
                                         <div id="detailsdiv" align="left">
                                             <div>
                                                 <p><strong>Operational Details:</strong></p>
-                                                <p>[RJ_PROJ] copies and moves these configuration files back and forth between the emulator's folder and the per-game configuration folder before and after the emulator runs.
+                                                <p>skeletonKey copies and moves these configuration files back and forth between the emulator's folder and the per-game configuration folder before and after the emulator runs.
                                                 </p>
-                                                <p>Configuration files are stored inside a folder of the ROM's name. A folder for each system can be located in the [RJ_PROJ] installation folder under the "cfg" directory. EG:
+                                                <p>Configuration files are stored inside a folder of the ROM's name. A folder for each system can be located in the skeletonKey installation folder under the "cfg" directory. EG:
                                                 </p>
-                                                <p><code>\...\[RJ_PROJ]\cfg\System - Name\emu_nickname\ROM Title\config.ini</code></p>
+                                                <p><code>\...\skeletonKey\cfg\System - Name\emu_nickname\ROM Title\config.ini</code></p>
                                                 <p>For retroArch, per-game settings are stored in:</p>
                                                 <p><code>\retroarch\config\core name\ROM Title.cfg</code>
                                                 </p>
@@ -639,7 +639,7 @@
 						<p>RoM-Jacket libraries require a keyboard-remapper for a seamless HTPC gaming frontend experience.</p>
 						<div id="indent">
 							<h4>Xpadder</h4>
-							<p>Xpadder is a very reliable and enhanced keyboard remapper. Presets are ubiquitous and abundant and [RJ_PROJ] has hundreds for many emulators ready to go for xinput devices.</p>
+							<p>Xpadder is a very reliable and enhanced keyboard remapper. Presets are ubiquitous and abundant and skeletonKey has hundreds for many emulators ready to go for xinput devices.</p>
 							<h4>Antimicro</h4>
 							<p>default.</p>
 							<p>Antimicro is open source, extremely versitile and the preferred keyboard remapper.
@@ -662,7 +662,7 @@
 											<p>Causes an empty profile to be created for each game so changes made to the keymapper are saved for the currently running title.</p>
 											<p><span style="font-size: x-small">If a return profile is enabled .)*</span></p>
 											<h4>Joy</h4>
-											<p>This is the default option for [RJ_PROJ] and creates a profile with only Emulator functionality.
+											<p>This is the default option for skeletonKey and creates a profile with only Emulator functionality.
 												<br> Functional hotkeys are assigned to triggered button sequences. (eg: holding the back-button while holding down L trigger will enable the joystick's hotkey buttons </p>
 										</div>
 									</div>
@@ -679,7 +679,7 @@
                         </div>
                         <div align="left" id="outer">
                             <div id="inner">
-                                <p>Each frontend has a proprietary playlist format, however [RJ_PROJ] can convert between emulationStation playlists.
+                                <p>Each frontend has a proprietary playlist format, however skeletonKey can convert between emulationStation playlists.
                                 </p>
                                 <p>Drag and Drop ROMs to dynamically add files to playlists.
                                 </p>.
@@ -699,7 +699,7 @@
                                                     <p>The core/emulator dropdown is assigned to the selected items when they are added to the playlist.
                                                     </p>
                                                     <h4>RetroArch's Per-Game Configuration Files</h4>
-                                                    <p>A template config file can be specified for the retroArch's per-game configuration files, otherwise current [RJ_PROJ] settings are used.
+                                                    <p>A template config file can be specified for the retroArch's per-game configuration files, otherwise current skeletonKey settings are used.
                                                     </p>
                                                     <h4><a>Playlist Options</a></h4>
                                                     <p>Right-Clicking in the current Playlist will allow selected items to change the core/emulator assignment for selected items.
@@ -715,7 +715,7 @@
                             <br>
                             <div id="inner">
                                 <h3><a>EmulationStation</a></h3>
-                                <p>[RJ_PROJ] can create and edit gamelist.xml files which can be to used cull ROM directories and display custom playlists. The existing es_systems.cfg will be loaded and inherited systems' directories will become available.
+                                <p>skeletonKey can create and edit gamelist.xml files which can be to used cull ROM directories and display custom playlists. The existing es_systems.cfg will be loaded and inherited systems' directories will become available.
                                     Several options exist to populate gamelist.xml files with artwork and ROM metadata.
                                 </p>
                                 <ul class="accordion css-accordion" align="right">
@@ -726,7 +726,7 @@
                                             <div id="detailsdiv" align="left">
                                                 <div>
                                                     <p>Like emulationStation's es_systems.cfg, emulationStation gamelists are xml files which contain standard metadata tags. Absolute paths to assets such as images and video files are accepted, however relative
-                                                        paths are also accepted, making the entire frontend portable across platforms (*nix/apple/windows). Assets can be arranged &amp; named uniquely, however [RJ_PROJ] propagates assets to an emulationStation
+                                                        paths are also accepted, making the entire frontend portable across platforms (*nix/apple/windows). Assets can be arranged &amp; named uniquely, however skeletonKey propagates assets to an emulationStation
                                                         deployment which follows a local-layout.
                                                     </p>
 
@@ -751,7 +751,7 @@
                                     </li>
                                 </ul>
                                 <h3><a>RetroFE</a></h3>
-                                <p>[RJ_PROJ] can create and edit include/exclude files which can be to used cull ROM directories and display custom playlists.
+                                <p>skeletonKey can create and edit include/exclude files which can be to used cull ROM directories and display custom playlists.
                                 </p>
                                 <ul class="accordion css-accordion" align="right">
                                     <li class="accordion-item">
@@ -785,7 +785,7 @@
                         <div align="left" id="outer">
                             <div id="inner">
                                 <p>The DAT:=:Repo tab contains a DAT sorting tool.</p>
-                                <p>[RJ_PROJ] has databases for current No-Intro, Redump, TOSEC and MAME/MESS ROMs.<br>Drag &amp; Drop is supported.</p>
+                                <p>skeletonKey has databases for current No-Intro, Redump, TOSEC and MAME/MESS ROMs.<br>Drag &amp; Drop is supported.</p>
                                 <ul class="accordion css-accordion" align="right">
                                     <li class="accordion-item">
                                         <input class="accordion-item-input" type="checkbox" name="accordion" id="item-datrepo" />
@@ -799,9 +799,9 @@
                                                         subdirectory. If no corresponding supported system is identified, the name of the DAT is used.<br> MAME/MESS systems are supported, however MAME Arcade ROMs should not be sorted and are not currently
                                                         identified.
 														<h4><strong><u>Your ROMs and BIOS files</u></strong></h4>
-											  <p>ROMs and BIOS files come in many forms and [RJ_PROJ] can identify many automatically, however several sites on the internet 
+											  <p>ROMs and BIOS files come in many forms and skeletonKey can identify many automatically, however several sites on the internet 
 											  host a multitude of free and open source ROMs developed for hundreds of popular consoles and computers.<br>
-											  If you have obtained open source / HOME-Brew ROMs or BIOS files you should consider cataloging these seperately within [RJ_PROJ].</p><br>
+											  If you have obtained open source / HOME-Brew ROMs or BIOS files you should consider cataloging these seperately within skeletonKey.</p><br>
 											  <br>
                                                 </div>
                                             </div>
@@ -824,9 +824,9 @@
                                 <p>Typically, a frontend will have an emluator assigned to a list of extensions for ROMs in a given directory. ROM-Jackets and Mirrored-Links are integrated.</p>
                                 <p>The right-click menu may be useful for users wishing to scrape artwork and create playlists.</p>
                                 <h3><a>Media</a></h3>
-                                <p>Asset-Management is a primary component of [RJ_PROJ], prioritizing a title-local storage-system (ROM-Jackets) to deploy artwork.
+                                <p>Asset-Management is a primary component of skeletonKey, prioritizing a title-local storage-system (ROM-Jackets) to deploy artwork.
                                 </p>
-                                <p>[RJ_PROJ] has a repository of photographic icons, full-HD images and large logos for hundreds of console, computer, arcade and hand-held systems. Game-assets and metadata such as box-art, banners, backgrounds, and videos
+                                <p>skeletonKey has a repository of photographic icons, full-HD images and large logos for hundreds of console, computer, arcade and hand-held systems. Game-assets and metadata such as box-art, banners, backgrounds, and videos
                                     are sourced from a multitude of databases to deploy several frontends.
                                 </p>
                                 <ul class="accordion css-accordion" align="right">
@@ -889,9 +889,9 @@
                                             <div id="detailsdiv" align="left">
                                                 <div>
                                                     <p>
-                                                        [RJ_PROJ] can load existing configuration files (es_systems.cfg), gamelist files (gamelist.xml) to add, remove, edit and reorder games and systems.
+                                                        skeletonKey can load existing configuration files (es_systems.cfg), gamelist files (gamelist.xml) to add, remove, edit and reorder games and systems.
                                                     </p>
-                                                    <p>The Paradigm: EmulationStation automatically adds any ROMs found in a directory to its database, however [RJ_PROJ] can edit and create gamelist.xml playlist-files to explicitly parse.
+                                                    <p>The Paradigm: EmulationStation automatically adds any ROMs found in a directory to its database, however skeletonKey can edit and create gamelist.xml playlist-files to explicitly parse.
                                                     </p>
                                                 </div>
                                             </div>
@@ -1123,7 +1123,7 @@
                                     <p> Before: Each archive is extracted prior to any jacket is created. Extracted files are not jacketized.
                                     </p>
                                     <p>After: Each archive is jacketized and then extracted into the jacket.</p>
-                                    <p>After archives are extracted they can be stored in [RJ_PROJ]'s tmp directory, deleted, or kept in the jacket.
+                                    <p>After archives are extracted they can be stored in skeletonKey's tmp directory, deleted, or kept in the jacket.
                                     </p>
                                     <br>
 									<hl><hl>
@@ -1168,7 +1168,7 @@
                                                         </p>
                                                         <p>The ROM's configuration for the emulator is copied to the proper location upon execution of the launcher.
                                                         </p>
-                                                        <p>It should be noted that <a href="#ASSOC" data-smoothie>[RJ_PROJ]'s Launcher settings</a> have their own set of per-game settings which operate indipendently from RoM-Jackets (even when using the
+                                                        <p>It should be noted that <a href="#ASSOC" data-smoothie>skeletonKey's Launcher settings</a> have their own set of per-game settings which operate indipendently from RoM-Jackets (even when using the
                                                             same ROM file).
                                                         </p>
                                                         <p>Caveats:</p>
@@ -1311,7 +1311,7 @@
                         <div align="left" id="outer">
                             <div id="inner">
                                 <h3><a>Executables</a></h3>
-                                <p>Creating an executable is a feature unique to [RJ_PROJ] where files such as ROMs, an emulator and special configuration files are compiled into a portable executable. Choosing more than one ROM will cause the executable
+                                <p>Creating an executable is a feature unique to skeletonKey where files such as ROMs, an emulator and special configuration files are compiled into a portable executable. Choosing more than one ROM will cause the executable
                                     to bring up a selection list which should be navigatable via player 1's joystick or a keyboard.<br>
                                     <ul class="accordion css-accordion" align="right">
                                         <li class="accordion-item">
@@ -1322,20 +1322,20 @@
                                 <div id="detailsdiv" align="left">
                                     <div>
                                         <p>Selecting an emulator preset will download the emulator and extract it to the
-                                            <code>...[RJ_PROJ]\executable\emu</code> directory
+                                            <code>...skeletonKey\executable\emu</code> directory
                                         </p>
-                                        <p>Add ROMs to your executable by dragging and dropping ROM files to the list on the left. Alternatively, you may use the &quot;Add&quot; button which will allow you to select them via [RJ_PROJ]'s file-browser. ROM
-                                            files are copied to the <code>...[RJ_PROJ]\executable\roms</code> directory.
+                                        <p>Add ROMs to your executable by dragging and dropping ROM files to the list on the left. Alternatively, you may use the &quot;Add&quot; button which will allow you to select them via skeletonKey's file-browser. ROM
+                                            files are copied to the <code>...skeletonKey\executable\roms</code> directory.
                                         </p>
                                         <p>Enabling the keymapper will download and extract antimicro into the
-                                            <code>...[RJ_PROJ]\executable\antimicro</code> directory.
+                                            <code>...skeletonKey\executable\antimicro</code> directory.
                                         </p>
                                         <p>3 profiles (<em>Player1.amgp, Player2.amgp &amp; Select.amgp</em>) are included in the
-                                            <code>...[RJ_PROJ]\executable</code> directory.
+                                            <code>...skeletonKey\executable</code> directory.
                                         </p>
                                         <p><em>Select.amgp</em> is loaded before the emulator to enable ROM selection with the directional pad if more than one ROM is included.
                                         </p>
-                                        <p>All files found in the<code>...[RJ_PROJ]\executable</code> directory will be included in the executable.
+                                        <p>All files found in the<code>...skeletonKey\executable</code> directory will be included in the executable.
                                         </p>
                                         <p>
                                         </p>
@@ -1354,7 +1354,7 @@
                             <br>
                             <div id="inner">
                                 <h3><a>Portable Mode</a></h3>
-                                <p>[RJ_PROJ] can be run from a thumbdrive or other portable drive. Many users may desire to transfer an existing [RJ_PROJ] installation to a portable drive and the portable utility should facilitate the conifiguration
+                                <p>skeletonKey can be run from a thumbdrive or other portable drive. Many users may desire to transfer an existing skeletonKey installation to a portable drive and the portable utility should facilitate the conifiguration
                                     migration.
                                 </p>
                                 <ul class="accordion css-accordion" align="right">
@@ -1364,9 +1364,9 @@
                                         <div class="accordion-item-bd">
                                             <div id="detailsdiv" align="left">
                                                 <div>
-                                                    <p class="hasShadow">Migration options for the portable utility include localization of items to the drive for playlists and simple search &amp; replace are updated to reflect the new portable [RJ_PROJ] location.
+                                                    <p class="hasShadow">Migration options for the portable utility include localization of items to the drive for playlists and simple search &amp; replace are updated to reflect the new portable skeletonKey location.
                                                     </p>
-                                                    <p class="hasShadow">Typically, a [RJ_PROJ] installation is copied to a removable drive. The PortableUtil.exe file should then be run from the portable device when first starting [RJ_PROJ] on a new computer or if the
+                                                    <p class="hasShadow">Typically, a skeletonKey installation is copied to a removable drive. The PortableUtil.exe file should then be run from the portable device when first starting skeletonKey on a new computer or if the
                                                         drive letter of the portable device has changed.
                                                     </p>
                                                 </div>
@@ -1380,7 +1380,7 @@
                             <br>
                             <div id="inner">
                                 <h3><a>Forking</a></h3>
-                                <p>A GUI deployment tool is available for users who wish to publish a [RJ_PROJ]. SKey-Deploy.exe can be used to build, maintain and deploy a github source-code versioning project, website and binaries from almost any windows
+                                <p>A GUI deployment tool is available for users who wish to publish a skeletonKey. SKey-Deploy.exe can be used to build, maintain and deploy a github source-code versioning project, website and binaries from almost any windows
                                     computer with internet access. You must have a <a href="http://github.com/join" target="blank">github account</a> and <a href="https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line#creating-a-token"
                                         target="_blank">create a token</a>.
                                 </p>
@@ -1391,10 +1391,10 @@
                                         <div class="accordion-item-bd">
                                             <div id="detailsdiv" align="left">
                                                 <div>
-                                                    <p class="hasShadow">Forking [RJ_PROJ] is made simple using the Skey-Deploy executable.<br>All the required tools such as <a href="http://github.com/" target="blank">Git</a>&amp; <a href="https://nsis.sourceforge.io/"
+                                                    <p class="hasShadow">Forking skeletonKey is made simple using the Skey-Deploy executable.<br>All the required tools such as <a href="http://github.com/" target="blank">Git</a>&amp; <a href="https://nsis.sourceforge.io/"
                                                             target="new">NSIS</a> can be quickly downloaded and setup automatically to create a devlopment environment.
                                                     </p>
-                                                    <p class="hasShadow">All the tools used to develop [RJ_PROJ] are open-source and developers interested in forking the project should read the guidelines and restrictions outlined in the Readme.md file included with the
+                                                    <p class="hasShadow">All the tools used to develop skeletonKey are open-source and developers interested in forking the project should read the guidelines and restrictions outlined in the Readme.md file included with the
                                                         project.
                                                     </p>
                                                 </div>
@@ -1410,7 +1410,7 @@
                             <div id="inner">
                                 <h3><a>Command-Line</a></h3>
                                 <p>An emulator-preset can be specified to override any default association from the command-line.<br>
-								[RJ_PROJ] launched from the command line <em>without</em> the -run= option functions identically to drag'n drop. </p>
+								skeletonKey launched from the command line <em>without</em> the -run= option functions identically to drag'n drop. </p>
                                 </p>
 								<br>
                                 <ul class="accordion css-accordion" align="right">
@@ -1420,16 +1420,16 @@
                                         <div class="accordion-item-bd">
                                             <div id="detailsdiv" align="left">
                                                 <div>
-                                                    <p><u>example:</u><br><code><em>...nkey&gt;</em> [RJ_PROJ].exe -run=NickName &quot;C:\Library\Console Name\Rom Name\rom file.rom&quot;</code></p>
+                                                    <p><u>example:</u><br><code><em>...nkey&gt;</em> skeletonKey.exe -run=NickName &quot;C:\Library\Console Name\Rom Name\rom file.rom&quot;</code></p>
                                                     <p align="right">
                                                         <span style="font-size: x-small">**Nicknames must not contain spaces**</span></p>
                                                     <hr>
-													                                <p>[RJ_PROJ] accepts the option <code>-run=</code> followed by the nickname of the emulator preset followed by the path to the ROM. Any options specified by the preset are respected.<br>
-                                                    <h4>Options to reset and initialize [RJ_PROJ]:</h4>
-													<p>[RJ_PROJ] can be completely initialized by simply deleting all files but the [RJ_PROJ].exe file<br>
-                                                    <p>-clearrj will reset the ROM-Jacket system-setup preferences and queue<br> -clearcfg will reset the per-game settings for all <strong>[RJ_PROJ]
-			launcher</strong> presets :: (not ROM-Jackets)<br> -clearset will reset the [RJ_PROJ] program settings<br> -clearexe will reset emulator executable settings<br> -clearscrape will delete scraped art
-                                                        and assets<br> adding a !q to the end of your clear command will override and assume yes on all deletion queries.<br> <u>example:</u><br> <code><em>...nkey&gt;</em>  [RJ_PROJ].exe -clearscrape!q</code></p><br>
+													                                <p>skeletonKey accepts the option <code>-run=</code> followed by the nickname of the emulator preset followed by the path to the ROM. Any options specified by the preset are respected.<br>
+                                                    <h4>Options to reset and initialize skeletonKey:</h4>
+													<p>skeletonKey can be completely initialized by simply deleting all files but the skeletonKey.exe file<br>
+                                                    <p>-clearrj will reset the ROM-Jacket system-setup preferences and queue<br> -clearcfg will reset the per-game settings for all <strong>skeletonKey
+			launcher</strong> presets :: (not ROM-Jackets)<br> -clearset will reset the skeletonKey program settings<br> -clearexe will reset emulator executable settings<br> -clearscrape will delete scraped art
+                                                        and assets<br> adding a !q to the end of your clear command will override and assume yes on all deletion queries.<br> <u>example:</u><br> <code><em>...nkey&gt;</em>  skeletonKey.exe -clearscrape!q</code></p><br>
                                                     <hr>
                                                     <h4>The Skey-Deploy utility accepts the following:</h4>
                                                     <p>-reset command to reset the while keeping credentials for github.<br> -gituser=
@@ -1460,7 +1460,7 @@
                                                     <h4>Copy Cfg</h4>
                                                     <p>Similar to the portable utility, this allows you to propagate settings from one file throughout an entire console's library.
                                                     </p>
-                                                    <p>If a launcher is selected (.bat) [RJ_PROJ] can propagate the file throughout a console's library and update or replace all other launchers.
+                                                    <p>If a launcher is selected (.bat) skeletonKey can propagate the file throughout a console's library and update or replace all other launchers.
                                                     </p>
                                                     <p>Any file can be propagated (eg: an xpadder profile) and subdirectories are supported.
                                                         <h4>Cloud</h4>
@@ -1490,10 +1490,10 @@
 								<p><strong>Answer: </strong>If you are in need of multiple emulators, consider installing the mednafen, retroarch, or bizhawk emulators.<br></p> 
                                 <p><strong>Question: </strong> How do I get games?
                                 </p>
-                                <p><strong>Answer: </strong>Developers of [RJ_PROJ] are working ahk they possibly can to enable and facilitate the ease of access to integrated repositories
+                                <p><strong>Answer: </strong>Developers of skeletonKey are working ahk they possibly can to enable and facilitate the ease of access to integrated repositories
                                 </p>
                                 <p><strong>Question: </strong> I'm having trouble with a feature. It's a bug?</p>
-                                <p><strong>Answer: </strong> <a href="https://github.com/oldtools/[RJ_PROJ]/issues" target="_self"> Create
+                                <p><strong>Answer: </strong> <a href="https://github.com/oldtools/skeletonKey/issues" target="_self"> Create
 			an issue on Github.com</a> and I'll respond or
                                     <div align="right">
                                         <ul class="accordion css-accordion" align="right">
